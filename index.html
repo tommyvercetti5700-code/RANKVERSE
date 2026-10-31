@@ -625,26 +625,23 @@
     </div>
   </footer>
 
-  <!-- Secret Owner Admin Passcode Modal (Hidden from students until triggered via 5x RV logo tap, ?admin=1, or footer lock) -->
+  <!-- Secret Maintainer Passcode Modal -->
   <div id="ownerAuthModal" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-sm flex items-center justify-center p-4 no-print">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-sm w-full overflow-hidden shadow-2xl p-5 space-y-4">
       <div class="flex items-center justify-between border-b border-slate-800 pb-3">
         <div>
-          <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-400">Private Owner Controls</span>
-          <h3 class="text-base font-bold text-white">🔒 Unlock Admin &amp; Monetization</h3>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Restricted Access</span>
+          <h3 class="text-base font-bold text-white">🔒 Maintainer Login</h3>
         </div>
         <button id="closeOwnerAuthModalBtn" type="button" class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 text-xs font-bold">✕</button>
       </div>
-      <p class="text-xs text-slate-300">
-        All monetization buttons and the Admin Panel are <strong>100% hidden from students and visitors</strong>. Enter your Owner PIN to unlock them on your device:
-      </p>
       <div>
-        <label for="ownerPinInput" class="block text-xs font-semibold text-slate-400 mb-1">Owner PIN</label>
-        <input id="ownerPinInput" type="password" placeholder="Enter Owner PIN (5700)" class="w-full px-3 py-2 rounded-lg bg-slate-950 border border-slate-700 text-white text-sm tracking-widest">
-        <p id="ownerPinError" class="hidden text-xs text-rose-400 mt-1.5 font-semibold">Incorrect PIN. Default Owner PIN is 5700.</p>
+        <label for="ownerPinInput" class="block text-xs font-semibold text-slate-400 mb-1">Passcode</label>
+        <input id="ownerPinInput" type="password" placeholder="••••••••" class="w-full px-3 py-2 rounded-lg bg-slate-950 border border-slate-700 text-white text-sm tracking-widest">
+        <p id="ownerPinError" class="hidden text-xs text-rose-400 mt-1.5 font-semibold">Access denied. Invalid passcode.</p>
       </div>
       <div class="flex justify-end gap-2 pt-1">
-        <button id="submitOwnerPinBtn" type="button" class="w-full px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition">
+        <button id="submitOwnerPinBtn" type="button" class="w-full px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs transition">
           🔓 Unlock Owner Admin Panel
         </button>
       </div>
