@@ -1,8 +1,22 @@
 {
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-31",
   "affiliate_tag": "",
   "cpl_partner_url": "https://testbook.com/jee-main",
   "resources": [
+    {
+      "id": "res-note-math-conics",
+      "title": "Mathematics: Coordinate Geometry & Conic Sections (Parabola, Ellipse, Hyperbola) (+ Official NCERT PDF)",
+      "exam": "JEE",
+      "subject": "Mathematics",
+      "format": "Revision Notes",
+      "duration": "10-Min Sheet + PDF",
+      "source": "Daily Syllabus Bot + Official ncert.nic.in PDF",
+      "youtubeQuery": "Mathematics%3A%20Coordinate%20Geometry%20%26%20Conic%20Sections%20%28Parabola%2C%20Ellipse%2C%20Hyperbola%29",
+      "directUrl": "https://ncert.nic.in/textbook/pdf/kemh110.pdf",
+      "StandaloneSheet": "generated_notes/note-math-conics.html",
+      "summary": "Auto-generated chapter formula sheet and official NCERT textbook PDF link (2026-10-31).",
+      "recommendedBookId": "aff-cengage-jee"
+    },
     {
       "id": "res-note-chem-equilibrium",
       "title": "Chemistry: Chemical & Ionic Equilibrium, Buffer & Ksp Master Sheet (+ Official NCERT PDF)",
@@ -33,6 +47,26 @@
     }
   ],
   "notes": [
+    {
+      "id": "note-math-conics",
+      "title": "Mathematics: Coordinate Geometry & Conic Sections (Parabola, Ellipse, Hyperbola)",
+      "exam": "JEE & NDA",
+      "subject": "Mathematics",
+      "updated": "Auto-Generated on 2026-10-31 (CC-BY 4.0)",
+      "ncertPdf": "https://ncert.nic.in/textbook/pdf/kemh110.pdf",
+      "archivePdf": "https://archive.org/details/ncert-class-11-mathematics",
+      "affiliateId": "aff-cengage-jee",
+      "sections": [
+        {
+          "heading": "1. Eccentricity, Latus Rectum & Slope-Form Tangents",
+          "bullets": [
+            "Parabola (y² = 4ax): LR = 4a, Tangent of slope m: y = mx + a/m",
+            "Ellipse (x²/a² + y²/b² = 1): b² = a²(1 − e²), LR = 2b²/a, Tangent: y = mx ± √(a²m² + b²)",
+            "Hyperbola (x²/a² − y²/b² = 1): b² = a²(e² − 1), Tangent: y = mx ± √(a²m² − b²)"
+          ]
+        }
+      ]
+    },
     {
       "id": "note-chem-equilibrium",
       "title": "Chemistry: Chemical & Ionic Equilibrium, Buffer & Ksp Master Sheet",
