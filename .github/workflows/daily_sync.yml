@@ -1,0 +1,32 @@
+name: Daily JEE/NEET Formula Sheet, PDF & Video Auto-Updater
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  auto-curate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - env:
+          ENABLE_MONETIZATION: ${{ secrets.ENABLE_MONETIZATION || 'false' }}
+          AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG || 'rankverse-21' }}
+          CPL_SCHOLARSHIP_URL: ${{ secrets.CPL_SCHOLARSHIP_URL || 'https://testbook.com/jee-main' }}
+        run: python3 auto_fetch_resources.py
+      - run: |
+          git config --global user.name "RankVerse Auto-Bot"
+          git config --global user.email "bot@rankverse.local"
+          git add resources_data.json generated_notes/ || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore(auto-bot): daily study sync"
+          git push
+          
