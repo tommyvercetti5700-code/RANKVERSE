@@ -1,117 +1,59 @@
 {
-  "updated_at": "2026-10-31",
+  "schema_version": "3.0",
+  "last_updated": "2026-10-31 15:23 UTC",
+  "monetization_enabled": false,
   "affiliate_tag": "",
-  "cpl_partner_url": "https://testbook.com/jee-main",
   "resources": [
     {
-      "id": "res-note-math-conics",
-      "title": "Mathematics: Coordinate Geometry & Conic Sections (Parabola, Ellipse, Hyperbola) (+ Official NCERT PDF)",
-      "exam": "JEE",
-      "subject": "Mathematics",
-      "format": "Revision Notes",
-      "duration": "10-Min Sheet + PDF",
-      "source": "Daily Syllabus Bot + Official ncert.nic.in PDF",
-      "youtubeQuery": "Mathematics%3A%20Coordinate%20Geometry%20%26%20Conic%20Sections%20%28Parabola%2C%20Ellipse%2C%20Hyperbola%29",
-      "directUrl": "https://ncert.nic.in/textbook/pdf/kemh110.pdf",
-      "StandaloneSheet": "generated_notes/note-math-conics.html",
-      "summary": "Auto-generated chapter formula sheet and official NCERT textbook PDF link (2026-10-31).",
-      "recommendedBookId": "aff-cengage-jee"
-    },
-    {
-      "id": "res-note-chem-equilibrium",
-      "title": "Chemistry: Chemical & Ionic Equilibrium, Buffer & Ksp Master Sheet (+ Official NCERT PDF)",
-      "exam": "JEE",
-      "subject": "Chemistry",
-      "format": "Revision Notes",
-      "duration": "10-Min Sheet + PDF",
-      "source": "Daily Syllabus Bot + Official ncert.nic.in PDF",
-      "youtubeQuery": "Chemistry%3A%20Chemical%20%26%20Ionic%20Equilibrium%2C%20Buffer%20%26%20Ksp%20Master%20Sheet",
-      "directUrl": "https://ncert.nic.in/textbook/pdf/kech106.pdf",
-      "StandaloneSheet": "generated_notes/note-chem-equilibrium.html",
-      "summary": "Auto-generated chapter formula sheet and official NCERT textbook PDF link (2026-10-24).",
-      "recommendedBookId": "aff-arihant-pyq"
-    },
-    {
-      "id": "res-note-rotational-motion",
-      "title": "Physics: Rotational Motion, Moment of Inertia & Pure Rolling Sheet (+ Official NCERT PDF)",
+      "id": "res-jee-phys-rotational",
+      "title": "Complete Rotational Motion & Moment of Inertia One-Shot + PYQs",
       "exam": "JEE",
       "subject": "Physics",
-      "format": "Revision Notes",
-      "duration": "10-Min Sheet + PDF",
-      "source": "Daily Syllabus Bot + Official ncert.nic.in PDF",
-      "youtubeQuery": "Physics%3A%20Rotational%20Motion%2C%20Moment%20of%20Inertia%20%26%20Pure%20Rolling%20Sheet",
-      "directUrl": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
-      "StandaloneSheet": "generated_notes/note-rotational-motion.html",
-      "summary": "Auto-generated chapter formula sheet and official NCERT textbook PDF link (2026-10-24).",
+      "format": "One-Shot Video",
+      "duration": "4h 15m",
+      "source": "SWAYAM IIT-PAL / Official YouTube Embed",
+      "directUrl": "https://www.youtube.com/results?search_query=Rotational+Motion+One+Shot+JEE+Main+Physics",
+      "summary": "Covers torque, angular momentum conservation, pure rolling, and parallel/perpendicular axis theorems.",
       "recommendedBookId": "aff-hc-verma"
     }
   ],
   "notes": [
     {
-      "id": "note-math-conics",
-      "title": "Mathematics: Coordinate Geometry & Conic Sections (Parabola, Ellipse, Hyperbola)",
-      "exam": "JEE & NDA",
-      "subject": "Mathematics",
-      "updated": "Auto-Generated on 2026-10-31 (CC-BY 4.0)",
-      "ncertPdf": "https://ncert.nic.in/textbook/pdf/kemh110.pdf",
-      "archivePdf": "https://archive.org/details/ncert-class-11-mathematics",
-      "affiliateId": "aff-cengage-jee",
+      "id": "note-rotational-motion",
+      "title": "Physics: Rotational Motion, Moment of Inertia & Pure Rolling Sheet",
+      "exam": "JEE & NEET",
+      "subject": "Physics",
+      "updated": "Verified CC-BY 4.0 Sequential Formula Sheet",
+      "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
+      "archivePdf": "https://archive.org/details/ncert-class-11-physics-part-1",
+      "affiliateId": "aff-hc-verma",
       "sections": [
         {
-          "heading": "1. Eccentricity, Latus Rectum & Slope-Form Tangents",
+          "heading": "1. Moment of Inertia & Axis Theorems",
           "bullets": [
-            "Parabola (y² = 4ax): LR = 4a, Tangent of slope m: y = mx + a/m",
-            "Ellipse (x²/a² + y²/b² = 1): b² = a²(1 − e²), LR = 2b²/a, Tangent: y = mx ± √(a²m² + b²)",
-            "Hyperbola (x²/a² − y²/b² = 1): b² = a²(e² − 1), Tangent: y = mx ± √(a²m² − b²)"
+            "Moment of Inertia: I = Σ m_i r_i² = ∫ r² dm [SI Unit: kg·m²]",
+            "Parallel Axis Theorem: I = I_cm + M d²",
+            "Perpendicular Axis Theorem: I_z = I_x + I_y"
           ]
         }
       ]
     },
     {
       "id": "note-chem-equilibrium",
-      "title": "Chemistry: Chemical & Ionic Equilibrium, Buffer & Ksp Master Sheet",
+      "title": "Chemistry: Chemical & Ionic Equilibrium (Kp, Kc, pH, Buffers & Ksp)",
       "exam": "JEE & NEET",
       "subject": "Chemistry",
-      "updated": "Auto-Generated on 2026-10-24 (CC-BY 4.0)",
-      "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech106.pdf",
-      "archivePdf": "https://archive.org/details/ncert-class-11-chemistry-part-1",
+      "updated": "Verified CC-BY 4.0 Sequential Formula Sheet",
+      "ncertPdf": "https://ncert.nic.in/textbook/pdf/kech107.pdf",
+      "archivePdf": "https://archive.org/details/ncert-textbooks",
       "affiliateId": "aff-arihant-pyq",
       "sections": [
         {
-          "heading": "1. Kp vs Kc, Van’t Hoff & Henderson-Hasselbalch Buffer Equations",
+          "heading": "1. Chemical Equilibrium & Henderson-Hasselbalch Equation",
           "bullets": [
-            "Kp = Kc · (RT)^(Δn_g) | ΔG° = −2.303 R T log₁₀(K_eq)",
-            "Acidic Buffer pH = pK_a + log₁₀([Salt]/[Acid]) | Basic Buffer pOH = pK_b + log₁₀([Salt]/[Base])",
-            "Solubility Product for A_x B_y: K_sp = x^x · y^y · S^(x+y)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "note-rotational-motion",
-      "title": "Physics: Rotational Motion, Moment of Inertia & Pure Rolling Sheet",
-      "exam": "JEE & NEET",
-      "subject": "Physics",
-      "updated": "Auto-Generated on 2026-10-24 (CC-BY 4.0)",
-      "ncertPdf": "https://ncert.nic.in/textbook/pdf/keph107.pdf",
-      "archivePdf": "https://archive.org/details/ncert-class-11-physics-part-1",
-      "affiliateId": "aff-hc-verma",
-      "sections": [
-        {
-          "heading": "1. Moment of Inertia & Parallel / Perpendicular Axis Theorems",
-          "bullets": [
-            "Moment of Inertia: I = Σ m_i r_i² = ∫ r² dm [SI Unit: kg·m², Dimensional Formula: M¹L²T⁰]",
-            "Parallel Axis Theorem: I = I_cm + M d² (where d is perpendicular distance between parallel axes)",
-            "Perpendicular Axis Theorem (Planar 2D Laminas): I_z = I_x + I_y",
-            "Standard Values: Thin Rod (center) = ML²/12, (end) = ML²/3 | Ring = MR² | Solid Disc = ½ MR² | Solid Sphere = ⅖ MR²"
-          ]
-        },
-        {
-          "heading": "2. Torque, Angular Momentum & Pure Rolling on Incline",
-          "bullets": [
-            "Torque & Angular Momentum: τ = r × F = I α = dL/dt | Conservation: If Σ τ_ext = 0, then I₁ ω₁ = I₂ ω₂",
-            "Pure Rolling Condition (no slipping): v_cm = R ω and a_cm = R α",
-            "Acceleration Rolling Down Incline (angle θ): a = (g sin θ) / (1 + k²/R²)"
+            "Relation between Kp and Kc: Kp = Kc · (R · T)^(Δn_g)",
+            "Acidic Buffer pH: pH = pKa + log₁₀([Conjugate Base] / [Weak Acid])",
+            "Solubility Product (AgCl): Ksp = [Ag⁺][Cl⁻] = s²"
           ]
         }
       ]
