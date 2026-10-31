@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RankVerse AI — Automated JEE, NEET, CUET & NDA Free Study & Monetization Hub</title>
+  <title>RankVerse AI — Free JEE, NEET, CUET & NDA Study Notes, Formula Sheets & One-Shot Hub</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,6 +50,9 @@
     body:not(.free-study-mode) .free-mode-only {
       display: none !important;
     }
+    body:not(.owner-admin-unlocked) .owner-only {
+      display: none !important;
+    }
     @media print {
       .no-print { display: none !important; }
       body { background: #fff !important; color: #000 !important; }
@@ -71,16 +74,19 @@
       </div>
       <div class="flex flex-wrap items-center gap-2.5">
         <span id="freeModeBadge" class="free-mode-only px-2.5 py-0.5 rounded bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 font-semibold">
-          🌱 Pure Free Study Mode (Monetization Off — Can Enable Anytime)
+          🌱 100% Free Aspirant Study Portal • Official NCERT &amp; NTA OER
         </span>
-        <span class="monetize-only px-2 py-0.5 rounded bg-amber-500/20 border border-amber-400/30 text-amber-300 font-medium">
+        <span class="owner-only monetize-only px-2 py-0.5 rounded bg-amber-500/20 border border-amber-400/30 text-amber-300 font-medium">
           Affiliate Tag: <strong id="activeAffiliateBadge">rankverse-21</strong>
         </span>
-        <button id="quickToggleMonetizeBtn" type="button" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-medium transition">
+        <button id="quickToggleMonetizeBtn" type="button" class="owner-only px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-medium transition">
           🎛️ Monetization: <span id="topMonetizeStateText" class="text-emerald-300 font-bold">OFF (Add Later)</span>
         </button>
-        <button id="quickSyncBtn" type="button" class="px-2.5 py-1 rounded bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition flex items-center gap-1">
+        <button id="quickSyncBtn" type="button" class="owner-only px-2.5 py-1 rounded bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition flex items-center gap-1">
           <span>⚡ Run Auto-Fetch Now</span>
+        </button>
+        <button id="lockOwnerAdminBtn" type="button" class="owner-only px-2.5 py-1 rounded bg-rose-900/60 hover:bg-rose-800 border border-rose-500/40 text-rose-200 font-semibold transition">
+          🔒 Hide Owner Panel
         </button>
       </div>
     </div>
@@ -90,7 +96,7 @@
   <header class="sticky top-0 z-30 glass-panel border-b border-slate-800/80 no-print">
     <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
       <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-amber-500 flex items-center justify-center font-extrabold text-lg shadow-lg shadow-indigo-500/20">
+        <div id="brandLogoTrigger" title="RankVerse Study Hub" class="cursor-pointer select-none w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-amber-500 flex items-center justify-center font-extrabold text-lg shadow-lg shadow-indigo-500/20">
           RV
         </div>
         <div>
@@ -116,7 +122,7 @@
         <button type="button" data-tab="monetize" class="monetize-only nav-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold text-amber-300 hover:bg-slate-800 transition">
           💰 ₹100/Visitor Revenue Lab
         </button>
-        <button type="button" data-tab="automator" class="nav-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold text-emerald-300 hover:bg-slate-800 transition">
+        <button type="button" data-tab="automator" class="owner-only nav-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold text-emerald-300 hover:bg-slate-800 transition">
           🤖 Auto-Bot & Admin Panel
         </button>
       </nav>
@@ -260,7 +266,7 @@
         <div>
           <h2 class="text-lg font-bold text-white">📝 Original Open-License High-Yield Formula & Revision Sheets</h2>
           <p class="text-xs sm:text-sm text-slate-400 mt-1">
-            100% original, copyright-free crisp revision notes with built-in contextual book affiliate links and printable PDF export.
+            100% original, copyright-free crisp chapter formula sheets with direct official NCERT textbook PDFs and printable export.
           </p>
         </div>
         <div class="flex flex-wrap items-center gap-2 shrink-0">
@@ -613,8 +619,37 @@
       <div class="monetize-only">
         Affiliate Disclosure: Some book &amp; course links carry associate tags that support free education at zero extra cost to students.
       </div>
+      <button id="openOwnerAuthBtn" type="button" title="Website Owner Access" class="text-[11px] text-slate-700 hover:text-slate-400 transition select-none">
+        🔒
+      </button>
     </div>
   </footer>
+
+  <!-- Secret Owner Admin Passcode Modal (Hidden from students until triggered via 5x RV logo tap, ?admin=1, or footer lock) -->
+  <div id="ownerAuthModal" class="fixed inset-0 z-50 hidden bg-slate-950/85 backdrop-blur-sm flex items-center justify-center p-4 no-print">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-sm w-full overflow-hidden shadow-2xl p-5 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-400">Private Owner Controls</span>
+          <h3 class="text-base font-bold text-white">🔒 Unlock Admin &amp; Monetization</h3>
+        </div>
+        <button id="closeOwnerAuthModalBtn" type="button" class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 text-xs font-bold">✕</button>
+      </div>
+      <p class="text-xs text-slate-300">
+        All monetization buttons and the Admin Panel are <strong>100% hidden from students and visitors</strong>. Enter your Owner PIN to unlock them on your device:
+      </p>
+      <div>
+        <label for="ownerPinInput" class="block text-xs font-semibold text-slate-400 mb-1">Owner PIN</label>
+        <input id="ownerPinInput" type="password" placeholder="Enter Owner PIN (5700)" class="w-full px-3 py-2 rounded-lg bg-slate-950 border border-slate-700 text-white text-sm tracking-widest">
+        <p id="ownerPinError" class="hidden text-xs text-rose-400 mt-1.5 font-semibold">Incorrect PIN. Default Owner PIN is 5700.</p>
+      </div>
+      <div class="flex justify-end gap-2 pt-1">
+        <button id="submitOwnerPinBtn" type="button" class="w-full px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition">
+          🔓 Unlock Owner Admin Panel
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script>
     // ====================================================
@@ -622,6 +657,7 @@
     // ====================================================
     const state = {
       monetizationEnabled: false, // OFF by default as requested; can be toggled ON anytime later!
+      ownerAdminUnlocked: false, // Hidden from public visitors; unlocked only by owner PIN (5700)
       activeTab: 'study',
       examFilter: 'ALL',
       subjectFilter: 'ALL',
@@ -1832,10 +1868,12 @@
         panel.classList.toggle('hidden', panel.id !== 'tab-' + tabName);
       });
       document.querySelectorAll('.nav-tab-btn').forEach(btn => {
-        const isCurrent = btn.getAttribute('data-tab') === tabName;
-        btn.className = isCurrent
+        const tab = btn.getAttribute('data-tab');
+        const isCurrent = tab === tabName;
+        const extraClasses = (tab === 'store' || tab === 'monetize') ? 'monetize-only ' : (tab === 'automator' ? 'owner-only ' : '');
+        btn.className = extraClasses + (isCurrent
           ? 'nav-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-indigo-600 text-white transition'
-          : 'nav-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-300 hover:bg-slate-800 transition';
+          : 'nav-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-300 hover:bg-slate-800 transition');
       });
     }
 
@@ -1928,9 +1966,72 @@
         const savedMon = localStorage.getItem('rankverse_monetize_enabled');
         if (savedMon === '1') state.monetizationEnabled = true;
       } catch (e) {}
+      function applyOwnerAdminUI() {
+        document.body.classList.toggle('owner-admin-unlocked', state.ownerAdminUnlocked);
+        if (!state.ownerAdminUnlocked && state.activeTab === 'automator') {
+          switchTab('study');
+        }
+      }
+
+      function openOwnerPinModal() {
+        if (state.ownerAdminUnlocked) {
+          switchTab('automator');
+          return;
+        }
+        document.getElementById('ownerPinInput').value = '';
+        document.getElementById('ownerPinError').classList.add('hidden');
+        document.getElementById('ownerAuthModal').classList.remove('hidden');
+      }
+
+      // Check URL parameter ?admin=1 or ?owner=5700
+      try {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('owner') === '5700') {
+          state.ownerAdminUnlocked = true;
+        } else if (params.get('admin') === '1') {
+          setTimeout(openOwnerPinModal, 200);
+        }
+      } catch (e) {}
+
+      applyOwnerAdminUI();
       applyMonetizationModeUI();
       document.getElementById('quickToggleMonetizeBtn').addEventListener('click', toggleMonetizationMode);
       document.getElementById('masterMonetizeToggleBtn').addEventListener('click', toggleMonetizationMode);
+
+      // Secret 5-tap on RV logo or discreet footer lock icon opens Owner PIN modal
+      let logoTapCount = 0;
+      let logoTapTimer = null;
+      document.getElementById('brandLogoTrigger').addEventListener('click', () => {
+        logoTapCount += 1;
+        clearTimeout(logoTapTimer);
+        if (logoTapCount >= 5) {
+          logoTapCount = 0;
+          openOwnerPinModal();
+        } else {
+          logoTapTimer = setTimeout(() => { logoTapCount = 0; }, 1800);
+        }
+      });
+      document.getElementById('openOwnerAuthBtn').addEventListener('click', openOwnerPinModal);
+      document.getElementById('closeOwnerAuthModalBtn').addEventListener('click', () => {
+        document.getElementById('ownerAuthModal').classList.add('hidden');
+      });
+      document.getElementById('submitOwnerPinBtn').addEventListener('click', () => {
+        const pin = document.getElementById('ownerPinInput').value.trim();
+        if (pin === '5700' || pin.toLowerCase() === 'rankverse') {
+          state.ownerAdminUnlocked = true;
+          applyOwnerAdminUI();
+          document.getElementById('ownerAuthModal').classList.add('hidden');
+          switchTab('automator');
+          showToast('🔓 Owner Admin Panel Unlocked! (Only visible to you)');
+        } else {
+          document.getElementById('ownerPinError').classList.remove('hidden');
+        }
+      });
+      document.getElementById('lockOwnerAdminBtn').addEventListener('click', () => {
+        state.ownerAdminUnlocked = false;
+        applyOwnerAdminUI();
+        showToast('🔒 Owner Admin Panel hidden! Site is now in public student view.');
+      });
 
       // Sync affiliate tag display
       document.getElementById('activeAffiliateBadge').textContent = state.affiliateTag;
