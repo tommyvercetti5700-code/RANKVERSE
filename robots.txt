@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tommyvercetti5700-code.github.io/RANKVERSE/sitemap.xml
