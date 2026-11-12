@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-11 01:29 UTC",
+  "last_updated": "2026-11-12 01:40 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-zqnz-IDt7QQ",
+      "title": "NCERT: Chapter 9: Methods of Separation in Everyday Life (Part - II) Subject: Science (Grade: VI)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=zqnz-IDt7QQ",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=zqnz-IDt7QQ",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-11",
+        "retrieval_date": "2026-11-12",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-12"
+      }
+    },
+    {
+      "id": "yt-9Oh2VswiM84",
+      "title": "NCERT:Chapter 8: Unity in Diversity or 'Many in the One' (Part - 1) Subject:Social Science Grade: VI",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=9Oh2VswiM84",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=9Oh2VswiM84",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-11",
+        "retrieval_date": "2026-11-12",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-12"
+      }
+    },
+    {
+      "id": "yt-KGyibVqeY9k",
+      "title": "दिन 3: \" व्यक्तिगत डेटा की गोपनीयता एवं पहचान की सुरक्षा \" पर ऑनलाइन प्रशिक्षण",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=KGyibVqeY9k",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=KGyibVqeY9k",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-11",
+        "retrieval_date": "2026-11-12",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-12"
+      }
+    },
+    {
+      "id": "yt-jUbBMs3-u7o",
+      "title": "Sahyog : Screen Time to Meaningful Time: Digital Balance for Better Focus",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=jUbBMs3-u7o",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=jUbBMs3-u7o",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-12",
+        "retrieval_date": "2026-11-12",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-12"
+      }
+    },
     {
       "id": "res-jee-phys-rotational",
       "title": "Complete Rotational Motion & Moment of Inertia One-Shot + PYQs",
