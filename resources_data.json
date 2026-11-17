@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-16 01:50 UTC",
+  "last_updated": "2026-11-17 01:40 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-rQNYBlC3ZEI",
+      "title": "NCERT: अध्याय 9: आलू की सड़क   विषयः हिन्दी   (Grade: I)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=rQNYBlC3ZEI",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=rQNYBlC3ZEI",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-16",
+        "retrieval_date": "2026-11-17",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-17"
+      }
+    },
+    {
+      "id": "yt-dZbcCpjdzQY",
+      "title": "NCERT: Chapter 6: Between Home and School   Subject: English   (Grade: II)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=dZbcCpjdzQY",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=dZbcCpjdzQY",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-16",
+        "retrieval_date": "2026-11-17",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-17"
+      }
+    },
+    {
+      "id": "yt-5daUdfhYQCk",
+      "title": "NCERT: Chapter 3 Fun with Numbers   Subject: Mathematics   (Grade: II)",
+      "exam": "JEE",
+      "subject": "Mathematics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=5daUdfhYQCk",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=5daUdfhYQCk",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-16",
+        "retrieval_date": "2026-11-17",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-17"
+      }
+    },
+    {
+      "id": "yt-NWfppO8zQ2Q",
+      "title": "Sahyog :  Celebrating Childhood: Caring and Growing Together",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=NWfppO8zQ2Q",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=NWfppO8zQ2Q",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-17",
+        "retrieval_date": "2026-11-17",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-17"
+      }
+    },
     {
       "id": "yt-zqnz-IDt7QQ",
       "title": "NCERT: Chapter 9: Methods of Separation in Everyday Life (Part - II) Subject: Science (Grade: VI)",
