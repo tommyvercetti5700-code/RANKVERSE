@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-17 01:40 UTC",
+  "last_updated": "2026-11-18 01:45 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-s2YMrlQvUVo",
+      "title": "NCERT: अध्याय 7: मित्र को पत्र  विषय: हिन्दी   (Grade: III)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=s2YMrlQvUVo",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=s2YMrlQvUVo",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-17",
+        "retrieval_date": "2026-11-18",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-18"
+      }
+    },
+    {
+      "id": "yt-c9YBaGRz0qI",
+      "title": "NCERT: Chapter 6: Happy and Healthy Living (Part - II)  Subject: TWAU  (Grade: IV)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=c9YBaGRz0qI",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=c9YBaGRz0qI",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-17",
+        "retrieval_date": "2026-11-18",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-18"
+      }
+    },
+    {
+      "id": "yt-c300AaP07jI",
+      "title": "NCERT: Chapter 3  Be Smart, Be Safe  Subject: English  (Grade: IV)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=c300AaP07jI",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=c300AaP07jI",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-17",
+        "retrieval_date": "2026-11-18",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-18"
+      }
+    },
+    {
+      "id": "yt-xOvI-bqH6Ng",
+      "title": "Sahyog :  Every Day, Every Child: Schools as Joyful Places",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=xOvI-bqH6Ng",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=xOvI-bqH6Ng",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-18",
+        "retrieval_date": "2026-11-18",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-18"
+      }
+    },
     {
       "id": "yt-rQNYBlC3ZEI",
       "title": "NCERT: अध्याय 9: आलू की सड़क   विषयः हिन्दी   (Grade: I)",
