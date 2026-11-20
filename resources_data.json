@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-19 01:42 UTC",
+  "last_updated": "2026-11-20 01:36 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-TrJSn23l5-8",
+      "title": "NCERT:Chapter 5 Somebody's Mother  Subject: English  (Grade: VIII)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=TrJSn23l5-8",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=TrJSn23l5-8",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-19",
+        "retrieval_date": "2026-11-20",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-20"
+      }
+    },
+    {
+      "id": "yt-8rqJEDmtVMw",
+      "title": "NCERT: Chapter 1: World Geography: Some Glimpses (Part - 1) Subject: Social Science (Grade: VIII)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=8rqJEDmtVMw",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=8rqJEDmtVMw",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-19",
+        "retrieval_date": "2026-11-20",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-20"
+      }
+    },
+    {
+      "id": "yt-GDiuSM81uVQ",
+      "title": "Day 4: \"Multimedia - Based Teaching and Learning\"",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=GDiuSM81uVQ",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=GDiuSM81uVQ",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-19",
+        "retrieval_date": "2026-11-20",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-20"
+      }
+    },
+    {
+      "id": "yt-QX_896l31ZQ",
+      "title": "Sahyog : Shaping a Brighter Future: Encouraging Exploration, Discovery and Growth",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=QX_896l31ZQ",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=QX_896l31ZQ",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-20",
+        "retrieval_date": "2026-11-20",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-20"
+      }
+    },
     {
       "id": "yt-7NspNNFKvB8",
       "title": "NCERT: पाठ 10: तीन मछलियां   विषय: हिन्दी   (Grade: V)   Live",
