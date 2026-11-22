@@ -1,9 +1,75 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-21 01:41 UTC",
+  "last_updated": "2026-11-22 01:37 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-pZwzYlppGrw",
+      "title": "विषय:- बच्चों के समग्र विकास के लिए योग /Yoga for Holistic Development of Children",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=pZwzYlppGrw",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=pZwzYlppGrw",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-21",
+        "retrieval_date": "2026-11-22",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-22"
+      }
+    },
+    {
+      "id": "yt-hMlBefno5QY",
+      "title": "NCERT:Chapter 18: Human Neural System Subject: Biology (Grade: XI)",
+      "exam": "JEE",
+      "subject": "Biology",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=hMlBefno5QY",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=hMlBefno5QY",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-21",
+        "retrieval_date": "2026-11-22",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-22"
+      }
+    },
+    {
+      "id": "yt-_P08ZWE0kEQ",
+      "title": "NCERT:  Atoms (Part-1)  Subject: Physics  (Grade: XII)  Live",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=_P08ZWE0kEQ",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=_P08ZWE0kEQ",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-21",
+        "retrieval_date": "2026-11-22",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-22"
+      }
+    },
     {
       "id": "yt-GyYMAfUgGzY",
       "title": "Day 5: \"AI Enabled Teaching & Learning \"",
