@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-23 01:45 UTC",
+  "last_updated": "2026-11-24 01:43 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-IcHVp8gG6HU",
+      "title": "NCERT: सबक़ 1: सारी दुनिया के मालिक  ساری دنیا کے مالک  विषयः उर्दू   (Grade: II) Live",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=IcHVp8gG6HU",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=IcHVp8gG6HU",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-23",
+        "retrieval_date": "2026-11-24",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-24"
+      }
+    },
+    {
+      "id": "yt-bctkWGi1SLc",
+      "title": "NCERT: पाठ 13: तालाब  विषयः हिन्दी  (Grade: II)  Live",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=bctkWGi1SLc",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=bctkWGi1SLc",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-23",
+        "retrieval_date": "2026-11-24",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-24"
+      }
+    },
+    {
+      "id": "yt-FmDIeJb3nWw",
+      "title": "दिन 1:  \" डिजिटल शिक्षण पद्धति : अवधारणा, आवश्यकता और प्रकार \"  पर ऑनलाइन प्रशिक्षण",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=FmDIeJb3nWw",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=FmDIeJb3nWw",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-23",
+        "retrieval_date": "2026-11-24",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-24"
+      }
+    },
+    {
+      "id": "yt-J-HrEO5P7jM",
+      "title": "Sahyog : Decode Adolescence: Mind, Emotions and Identity",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=J-HrEO5P7jM",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=J-HrEO5P7jM",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-24",
+        "retrieval_date": "2026-11-24",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-24"
+      }
+    },
     {
       "id": "yt-pZwzYlppGrw",
       "title": "विषय:- बच्चों के समग्र विकास के लिए योग /Yoga for Holistic Development of Children",
