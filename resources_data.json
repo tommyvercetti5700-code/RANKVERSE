@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-24 01:43 UTC",
+  "last_updated": "2026-11-25 08:53 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-USC7QKpkehY",
+      "title": "किताबों से दोस्ती - एक संवाद श्रृंखला -  सत्र - 3 \"हमारी कहानी\"",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=USC7QKpkehY",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=USC7QKpkehY",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-25",
+        "retrieval_date": "2026-11-25",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-25"
+      }
+    },
+    {
+      "id": "yt-G6orIX-g5Gc",
+      "title": "NCERT: Chapter 12: Patterns in Life: Diversity and Classification Subject: Science  (Grade: IX)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=G6orIX-g5Gc",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=G6orIX-g5Gc",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-25",
+        "retrieval_date": "2026-11-25",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-25"
+      }
+    },
+    {
+      "id": "yt-5MXJkQCJ_G4",
+      "title": "Day 3 : Early Identification, Assessment and Support",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=5MXJkQCJ_G4",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=5MXJkQCJ_G4",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-25",
+        "retrieval_date": "2026-11-25",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-25"
+      }
+    },
+    {
+      "id": "yt-zPKtfkSwEuY",
+      "title": "NCERT: Chapter 5 Our Vibrant Country (Part - 1)  Subject: TWAU  (Grade: V)   Live",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=zPKtfkSwEuY",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=zPKtfkSwEuY",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-25",
+        "retrieval_date": "2026-11-25",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-25"
+      }
+    },
     {
       "id": "yt-IcHVp8gG6HU",
       "title": "NCERT: सबक़ 1: सारी दुनिया के मालिक  ساری دنیا کے مالک  विषयः उर्दू   (Grade: II) Live",
