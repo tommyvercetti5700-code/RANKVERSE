@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-26 08:39 UTC",
+  "last_updated": "2026-11-27 08:50 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-1rKCFAK4yLM",
+      "title": "NCERT: अध्याय 1: नमक का दारोगा विषयः हिन्दी   (Grade: XI)",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=1rKCFAK4yLM",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=1rKCFAK4yLM",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-27",
+        "retrieval_date": "2026-11-27",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-27"
+      }
+    },
+    {
+      "id": "yt-5j53-K_JdPQ",
+      "title": "MANODARPAN: Paricharcha: Building Inner Strength: Developing Emotional Resilience in Adolescents",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=5j53-K_JdPQ",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=5j53-K_JdPQ",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-27",
+        "retrieval_date": "2026-11-27",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-27"
+      }
+    },
+    {
+      "id": "yt-9_8LHk8dLlo",
+      "title": "Day 5: Rights, Empathy and Inclusive School Culture",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=9_8LHk8dLlo",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=9_8LHk8dLlo",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-27",
+        "retrieval_date": "2026-11-27",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-27"
+      }
+    },
+    {
+      "id": "yt-DiFt3_YfKVU",
+      "title": "NCERT: Introduction to Probability  Subject: Mathematics (Grade: IX)",
+      "exam": "JEE",
+      "subject": "Mathematics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=DiFt3_YfKVU",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=DiFt3_YfKVU",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-27",
+        "retrieval_date": "2026-11-27",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-27"
+      }
+    },
     {
       "id": "yt-p5nNBbzCjT0",
       "title": "Demonstration of Simulation on Boolean Expression and Logic Gate",
