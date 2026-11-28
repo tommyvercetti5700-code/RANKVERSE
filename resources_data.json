@@ -1,9 +1,97 @@
 {
   "schema_version": "3.0",
-  "last_updated": "2026-11-27 08:50 UTC",
+  "last_updated": "2026-11-28 08:09 UTC",
   "monetization_enabled": false,
   "affiliate_tag": "",
   "resources": [
+    {
+      "id": "yt-g7nLkZOlmr0",
+      "title": "Leading Learning in Rural Government School: A Case Study of GIMS Lokipar, Madhya Pradesh",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=g7nLkZOlmr0",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=g7nLkZOlmr0",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-28",
+        "retrieval_date": "2026-11-28",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-28"
+      }
+    },
+    {
+      "id": "yt-8KoG08yv6rE",
+      "title": "विषय:- सतत स्वास्थ्य एवं कल्याण के लिए योग / Yoga for Sustainable Health and Wellness",
+      "exam": "JEE",
+      "subject": "Physics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=8KoG08yv6rE",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=8KoG08yv6rE",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-28",
+        "retrieval_date": "2026-11-28",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-28"
+      }
+    },
+    {
+      "id": "yt-xo_rCEuTMis",
+      "title": "NCERT: Differential Equation – 1Subject: Mathematics (Grade: XII)",
+      "exam": "JEE",
+      "subject": "Mathematics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=xo_rCEuTMis",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=xo_rCEuTMis",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-28",
+        "retrieval_date": "2026-11-28",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-28"
+      }
+    },
+    {
+      "id": "yt-bAYbnXj9vL4",
+      "title": "NCERT: Sequences and Series Subject: Mathematics (Grade: XI)",
+      "exam": "JEE",
+      "subject": "Mathematics",
+      "format": "One-Shot Video",
+      "duration": "Official Lecture",
+      "source": "NCERT OFFICIAL (Official YouTube IFrame Embed)",
+      "directUrl": "https://www.youtube.com/watch?v=bAYbnXj9vL4",
+      "summary": "Verified lecture from NCERT OFFICIAL retrieved via public Atom feed.",
+      "recommendedBookId": "aff-hc-verma",
+      "provenance": {
+        "canonical_url": "https://www.youtube.com/watch?v=bAYbnXj9vL4",
+        "publisher": "NCERT OFFICIAL",
+        "language": "en",
+        "published_date": "2026-11-28",
+        "retrieval_date": "2026-11-28",
+        "license": "Standard YouTube Embed TOS",
+        "verification_status": "verified_https_allowlist",
+        "last_link_check": "2026-11-28"
+      }
+    },
     {
       "id": "yt-1rKCFAK4yLM",
       "title": "NCERT: अध्याय 1: नमक का दारोगा विषयः हिन्दी   (Grade: XI)",
